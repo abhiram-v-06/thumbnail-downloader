@@ -1,0 +1,77 @@
+header {
+  margin-top: 130px;
+}
+p {
+  color: #BB1040;
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+button {
+  width: 200px;
+  height: 50px;
+  color: #FFFFFF;
+  background-color: #0000FF;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 143px;
+  margin-top: 45px;
+  
+}
+form {
+  align-items: center;
+  background-color: transparent;
+}
+input {
+  width: 420px;
+  height: 40px;
+  margin-left: 30px;
+  font-size: 18px;
+  margin-top: 40px;
+  border: ;
+  border-radius: 10px;
+  border-color: #BB1040;
+  border-width: 2.4px;
+  color: #000000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  
+
+/* site by abhiram v */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  vertical-align: bottom;
+  margin-top: 550px;
+  height: 30px;
+}
+
+
+
+pf {
+  text-align: center;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+
+
+
+
+
+
+h1,h2,h3,h4,h5,h6{color:#353535;font-family:"Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif;line-height:normal}a{color:#4a9ae1;text-decoration:none}blockquote{border-left:.25rem solid #e5e5e5;color:#979797;margin:.8rem 0;padding:.5rem 1rem}blockquote p:last-child{margin-bottom:0}@media (min-width:600px){blockquote{padding:0 5rem 0 1.25rem}}
+
+
+img{display:block;margin:0 0 1rem;max-width:100%}td{vertical-align:top}
+td { 
+  position: center;
+}
+.whatsNew{background:#4200ff;color:#fff;font-size:13px;position:relative;top:-11px;left:-10px}.fontBlack{color:#000!important}@media only screen and (max-width:700px){h2{font-size:16px}.chromeExt{display:none!important}}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}

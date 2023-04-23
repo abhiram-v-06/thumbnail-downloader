@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="en-us"><head>
+	<meta name="generator" content="Hugo 0.51">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="description" content="Download youtube thumbnail Images and vimeo videos of all quality. This app lets you to download HD thumbnail images for free. Just enter the URL of the video for which thumbnail needs to be saved.">
+	
+		<title>
+				Youtube thumbnail Downloader
+		</title>
+	<style>
+	  body {
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+
+	</style>
+	
+		
+		  <link href="css/ui.css" rel="stylesheet">
+		<link rel="canonical" href="https://youtube-thumbnail-grabber.com/">
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	
+		
+		<link href="https://youtube-thumbnail-grabber.com/index.xml" rel="alternate" type="application/rss+xml" title="Download Youtube Thumbnail">	
+	</head>
+<t>Thumbnail Downloader</t>
+    <body>
+
+
+<main>
+	
+
+
+<div class="bodyContainer">
+
+
+</div>
+<header>
+<p>Enter the url, click Download  long press the image to download
+</p></header>
+
+<div class="container">
+<form class="downloadForm" onsubmit="event.preventDefault();initDownloadLinks();">
+    <input aria-label="input URL " class="form-control col-lg-6" id="inputURL" placeholder="Enter the youtube URL here" type="url" name="url">
+    <section8>
+<button class="btn btn-default" id="submitButton" type="button">Download Thumbnail</button>
+</section8>
+<setp>
+  
+</setp>
+</form>
+<div style="width:100%;">
+  </div>
+<div id="imgListing" class="imgListing" style="width:100%;left:0px">
+  <div id="topListing" style="display: none">
+  <h5 class="right-click-info">Right Click and click on 'Save Image As..' to save the images.</h5>
+<h5 id="hdrestext">HD Thumbnail Image (1280x720)</h5>
+<a id="hdreslink" class="download-btn">Download HD Thumbnail Image</a>
+  <img id="maxres" src loading="eager">
+  <h5 id="sdrestext">SD Thumbnail Image (640x480)</h5>
+  <a id="sdreslink" class="download-btn">Download SD Thumbnail Image</a>
+<img id="sdres" src loading="auto">
+</div>
+
+<div id="bottomListing" style="display: none">
+<h5 id="normalrestext">Normal Thumbnail Image (480x360)</h5>
+<a id="hqreslink" class="download-btn">Download Normal Thumbnail Image(480x360)</a>
+<img id="hqres" src loading="lzy">
+<div id="extraYTImg">
+<h5>Normal Image (320x180)</h5>
+<a id="mqreslink" class="download-btn">Download Normal Thumbnail Image(320x180)</a>
+<img id="mqres" src loading="lay">
+
+<h5>Normal Image (120x90)</h5>
+<a id="defreslink" class="download-btn">Download Normal Thumbnail Image(120x90)</a>
+<img id="defres" src loading="lay">
+</div>
+</div>
+</div>
+<div class="row container-fluid " id="extension-container" style="margin-top:50px">
+<div class="card text-center">
+<div class="card-body">
+<h4 class="card-title">Extensions</h4>
+<p class="card-text">Get Firefox extension to hassle free experience of downloading thumbnails</p>
+
+<a class="btn btn-outline-success" href="https://j.mp/3stFug0" target="_blank" rel="noreferrer" style="display:inline"><img src="images/firefox.png" alt="Firefox Extension link" style="display:inline-block">Firefox addon</a>
+
+
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+</div>
+
+
+<script src="js/ytg.js" type="text/javascript"></script>
+
+  <script>
+    initFunction();
+    if(window.matchMedia('(max-width: 750px)').matches){
+      var width = window.innerWidth - 50;
+      width = width>200?width:200;
+      document.getElementsByTagName("ins")[0].style.width=width;
+    }
+  </script>
+  <style>
+  .download-btn{
+    cursor:pointer;
+  }
+  </style>
+
+
+
+
+
+		
+</main>
+
+
+  
+
+<footer>
+  <div class="container">
+    <pf>website by ABHI YT &copy; 2023</pf>
+
+  </div>
+</footer>
+
+    
+        
+
+
+</body></html>
